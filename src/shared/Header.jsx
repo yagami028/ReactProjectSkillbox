@@ -1,9 +1,14 @@
+import { hot } from 'react-hot-loader/root';
 import * as React from 'react';
 
-export function Header() {
+
+export function HeaderCompotent() {
     return (
         <header>
-            <h1>Reddit for our own sfiufj 111222</h1>
+            <h1>Reddit for our own</h1>
+            <p>Hello there!</p>
         </header>
     );
 };
+
+export const Header = hot(HeaderCompotent);
